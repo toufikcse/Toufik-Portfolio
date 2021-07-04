@@ -13,8 +13,7 @@ h1{
 
 section{
     display: flex;
-    background-image: url("/images/top-banner.png");
-    background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -33,4 +32,13 @@ section{
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+.top-banner{
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
